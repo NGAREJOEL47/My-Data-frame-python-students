@@ -1,1 +1,12 @@
+import pandas as pd
 
+# create a dictionary first
+dtbase = {'ID':[2,6,5,3,8,12,7,11,15,10,17,14,1,4,16,9,19,20,13,18],
+          'NAME':['James','Delphine','Nelson','Felix','Justus','Kinson','Olpha','Nancy','Debra','Victor','James','Joel','Amos','Sophia','Nancy','Jacob','Esther','Tom','Mesh','Bright'],
+          'GENDER':['M','F','M','M','M','M','F','F','F','M','M','M','M','F','F','M','F','M','M','M'],
+          'COURSE':['Stat','Math','Data','Engineer','Math','Data','Engineer','Engineer','Stat','Engineer','Stat','Engineer','Math','Math','Data','Engineer','Math','Data','Stat','Stat'],
+          'ADMNUMBER':['S3','M4','D2','E1','M2','D3','E3','E4','S2','E2','S1','E5','M1','M3','D1','E7','M5','D4','S4','S5'],
+          'Grade':[52,65,56,45,85,64,75,77,88,89,68,78,78,68,56,67,65,64,46,70]}
+# Convert the dictionary into pd dataframe called students
+students = pd.DataFrame(dtbase, index =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
+print(students)
