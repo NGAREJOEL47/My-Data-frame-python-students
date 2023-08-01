@@ -1,0 +1,28 @@
+import pandas as pd 
+
+students = pd.read_csv('students.csv')
+  print(students)
+  
+# this is the result
+
+  Unnamed: 0	ID	NAME	GENDER	COURSE	ADMNUMBER	Grade
+0	1	2	James	M	Stat	S3	52
+1	2	6	Delphine	F	Math	M4	65
+2	3	5	Nelson	M	Data	D2	56
+3	4	3	Felix	M	Engineer	E1	45
+4	5	8	Justus	M	Math	M2	85
+5	6	12	Kinson	M	Data	D3	64
+6	7	7	Olpha	F	Engineer	E3	75
+7	8	11	Nancy	F	Engineer	E4	77
+8	9	15	Debra	F	Stat	S2	88
+9	10	10	Victor	M	Engineer	E2	89
+10	11	17	James	M	Stat	S1	68
+11	12	14	Joel	M	Engineer	E5	78
+12	13	1	Amos	M	Math	M1	78
+13	14	4	Sophia	F	Math	M3	68
+14	15	16	Nancy	F	Data	D1	56
+15	16	9	Jacob	M	Engineer	E7	67
+16	17	19	Esther	F	Math	M5	65
+17	18	20	Tom	M	Data	D4	64
+18	19	13	Mesh	M	Stat	S4	46
+19	20	18	Bright	M	Stat	S5	70
